@@ -1,7 +1,7 @@
 # Urza, Lord High Artificer — A Field Guide for the Command Zone
 
 An unofficial Commander deck guide for a real, physical **🤖 Urza's Constructs**
-proxy build: the full 100-card decklist, the infinite-mana combo, the
+proxy build: the full 100-card decklist, nine verified combos, the
 gameplan, strengths/weaknesses, an EDHREC-checked upgrade path, and a chapter
 of asymmetric-stax spice. Every card mention hovers (or taps, on mobile) to
 show the real card image, shipped locally in `assets/cards/`.

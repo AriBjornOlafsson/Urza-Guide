@@ -109,7 +109,6 @@
     "smokestack": "assets/cards/smokestack.jpg",
     "static-orb": "assets/cards/static-orb.jpg",
     "stasis": "assets/cards/stasis.jpg",
-    "ugin-the-spirit-dragon": "assets/cards/ugin-the-spirit-dragon.jpg",
     "hullbreaker-horror": "assets/cards/hullbreaker-horror.jpg",
     "forsaken-monument": "assets/cards/forsaken-monument.jpg",
     "power-artifact": "assets/cards/power-artifact.jpg",
