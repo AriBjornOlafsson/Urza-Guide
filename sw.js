@@ -1,7 +1,7 @@
 var CACHE_VERSION = 'v3';
 var CACHE_NAME = 'urza-guide-' + CACHE_VERSION;
 
-// Regenerate this list any time cards/fonts/icons change — see
+// Regenerate this list any time cards/fonts/icons change: see
 // .scratch/glossary/card-art-workflow.md for the maintenance note.
 var PRECACHE_URLS = [
   "./",
@@ -162,9 +162,9 @@ self.addEventListener('activate', function(event){
   );
 });
 
-// App shell (HTML/CSS/JS) — network-first, so a fresh deploy shows up right
+// App shell (HTML/CSS/JS): network-first, so a fresh deploy shows up right
 // away when online, but still works offline from whatever was last cached.
-// Everything else (card art, fonts, icons) — cache-first, since those files
+// Everything else (card art, fonts, icons): cache-first, since those files
 // never change once downloaded, so there's no reason to re-fetch them.
 var SHELL_PATHS = ['/', '/index.html', '/style.css', '/script.js'];
 

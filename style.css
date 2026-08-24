@@ -387,7 +387,7 @@
   }
   .cardpop.show .cardpop-face{ scale: 1.035; }
   /* Touch only: pointer-events turns on here while visible, so a tap can
-     close it — otherwise this fixed-position, invisible element would sit
+     close it, otherwise this fixed-position, invisible element would sit
      on top of whatever's underneath at its last shown spot and silently
      swallow taps meant for other cards. Scoped to touch devices specifically
      because on desktop, making it interactive at all lets it sit on top of

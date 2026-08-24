@@ -181,13 +181,13 @@
     // Only widen the hover/click target to a shared ancestor when that
     // ancestor holds exactly one card mention. Otherwise, several cardlinks
     // sharing a paragraph/li would each bind their own listeners onto the
-    // SAME container, and every hover would fire all of them — leaving only
+    // SAME container, and every hover would fire all of them, leaving only
     // the last-registered link's card ever actually shown, no matter which
     // one you pointed at.
     var container = (widenTo.querySelectorAll('.cardlink').length === 1) ? widenTo : link;
     link.setAttribute('tabindex','0');
     if(supportsHover){
-      // Focus/blur (keyboard nav) only wired up here too — on touch devices,
+      // Focus/blur (keyboard nav) only wired up here too. On touch devices,
       // tapping a tabindex="0" element fires a focus event before the tap's
       // synthetic click, and showCard()'s DOM mutation there makes the browser
       // cancel that pending click outright, silently breaking tap-to-open.
@@ -204,7 +204,7 @@
   });
 
   if(!supportsHover){
-    // Touch: click to open (above), click to close (here) — no drag/tilt
+    // Touch: click to open (above), click to close (here); no drag/tilt
     // gesture at all. cardFace only becomes tappable while the popup is
     // actually shown (see the .cardpop.show rule in CSS) so dragging
     // anywhere, including across the popped-up card, always just scrolls
