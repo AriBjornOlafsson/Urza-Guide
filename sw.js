@@ -1,4 +1,4 @@
-var CACHE_VERSION = 'v1';
+var CACHE_VERSION = 'v2';
 var CACHE_NAME = 'urza-guide-' + CACHE_VERSION;
 
 // Regenerate this list any time cards/fonts/icons change — see
@@ -141,7 +141,11 @@ var PRECACHE_URLS = [
   "assets/cards/smokestack.jpg",
   "assets/cards/static-orb.jpg",
   "assets/cards/stasis.jpg",
-  "assets/cards/ugin-the-spirit-dragon.jpg"];
+  "assets/cards/ugin-the-spirit-dragon.jpg",
+  "assets/cards/hullbreaker-horror.jpg",
+  "assets/cards/forsaken-monument.jpg",
+  "assets/cards/power-artifact.jpg",
+  "assets/cards/nevinyrrals-disk.jpg"];
 
 self.addEventListener('install', function(event){
   event.waitUntil(
